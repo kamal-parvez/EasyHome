@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:text="Apartment and Flat"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <Button
+            android:id="@+id/dhaka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/category"
+            android:layout_marginTop="25dp"
+            android:text="Dhaka" />
+
+        <Button
+            android:id="@+id/chattagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/dhaka"
+            android:text="Chattagram" />
+
+
+        <Button
+            android:id="@+id/mymensingh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rangpur"
+            android:text="Mymensingh" />
+
+        <Button
+            android:id="@+id/rangpur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/barishal"
+            android:text="Rangpur" />
+
+        <Button
+            android:id="@+id/barishal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/sylhet"
+            android:text="Barishal" />
+
+        <Button
+            android:id="@+id/sylhet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/khulna"
+            android:text="Sylhet" />
+
+        <Button
+            android:id="@+id/khulna"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rajshahi"
+            android:text="Khulna" />
+
+        <Button
+            android:id="@+id/rajshahi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/chattagram"
+            android:text="Rajshahi" />
+
+        <Button
+            android:id="@+id/dhakaDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/mymensingh"
+            android:text="Dhaka Division" />
+
+        <Button
+            android:id="@+id/chattaDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/dhakaDiv"
+            android:text="Chattagram Division" />
+
+        <Button
+            android:id="@+id/rajDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/chattaDiv"
+            android:text="Rajshahi Division" />
+        <Button
+            android:id="@+id/khulnaDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rajDiv"
+            android:text="Khulna Division" />
+        <Button
+            android:id="@+id/sylhetDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/khulnaDiv"
+            android:text="Sylhet Division" />
+        <Button
+            android:id="@+id/barishalDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/sylhetDiv"
+            android:text="Barishal Division" />
+        <Button
+            android:id="@+id/rangpurDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/barishalDiv"
+            android:text="Rangpur Division" />
+        <Button
+            android:id="@+id/mymenDiv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rangpurDiv"
+            android:text="Mymensingh Division" />
+
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
+
